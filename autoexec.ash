@@ -11,6 +11,15 @@ lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh'
 # lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh X'
 ###########################################
 
+# put your favorite setting here
+# or
+# use mode_set.sh funcionality to upload 
+# Your ash files from SCRIPTS/mode_set/ash_scripts dir to autoexec.ash loop
+
+###########################################
+# commands_from_app.ash loop
+# (based on information from AirKite member:
+# https://dashcamtalk.com/forum/threads/xiaomi-yi-share-your-scripts-and-settings.12707/page-11#post-214957 )
 ##prepare files and scripts for external commands
 lu_util exec 'if [ ! -f /tmp/fuse_d/commands_from_app.ash ]; then touch /tmp/fuse_d/commands_from_app.ash; fi'
 t pwm 1 enable
