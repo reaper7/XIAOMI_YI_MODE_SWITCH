@@ -18,8 +18,8 @@ lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh'
 
 ###########################################
 # commands_from_app.ash loop
-# (based on information from AirKite member:
-# https://dashcamtalk.com/forum/threads/xiaomi-yi-share-your-scripts-and-settings.12707/page-11#post-214957 )
+# based on information from AirKite member:
+# https://dashcamtalk.com/forum/threads/xiaomi-yi-share-your-scripts-and-settings.12707/page-11#post-214957
 ###########################################
 ## prepare files and scripts for external commands
 lu_util exec 'if [ ! -f /tmp/fuse_d/commands_from_app.ash ]; then touch /tmp/fuse_d/commands_from_app.ash; fi'
