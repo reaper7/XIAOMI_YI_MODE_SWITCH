@@ -6,9 +6,9 @@
 sleep 3
 lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh'
 # or for start with last used mode: 
-# lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh 0'
+#lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh 0'
 # or for start any other mode (where X are value from MINMODE to MAXMODE -> check inside mode_set.sh):
-# lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh X'
+#lu_util exec '/tmp/fuse_d/SCRIPTS/mode_set/mode_set.sh X'
 ###########################################
 
 # put your favorite setting here
