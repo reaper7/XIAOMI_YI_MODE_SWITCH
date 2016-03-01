@@ -48,7 +48,7 @@ mode_2() {
   return 1;
 }
 # ------------------------------------------------------------------------------
-# 3. TEST, SEND USER SETTINGS (HDR) TO AUTOEXEC
+# 3. TEST, SEND USER SETTINGS (AUTORECORD) TO AUTOEXEC
 mode_3() {
   send_custom_settings "autorec"
   return 1;
