@@ -22,8 +22,6 @@ TOOLPATH="$(cd "$(dirname "$0")" && pwd -P)"
 CONFFILE="$TOOLPATH/mode_set.cfg"
 UASHPATH="$TOOLPATH/ash_scripts"
 
-MAXWAIT=5																		# wait in loop when previous reqest is complete (send_custom_settings func)
-
 LSTMODE=0
 MINMODE=1
 MAXMODE=5                                                                       # change this one if You add more Your modes
@@ -77,14 +75,8 @@ mode_5() {
 send_custom_settings() {
   if [ ! -z $1 ]; then
     ASHFILE=$UASHPATH/$1.ash
-    if [ -s $ASHFILE ]; then
-	  WAITFORFREE=0
-	  while ( [ $WAITFORFREE -le $MAXWAIT ] && [ -s $CARDPATH/commands_from_app.ash ] )
-	  do
-		sleep 1
-		WAITFORFREE=$((WAITFORFREE +1))
-	  done
-	  cat $ASHFILE > $CARDPATH/commands_from_app.ash
+    if ( [ -s $ASHFILE ] && [ -f $CARDPATH/commands_from_app.ash ] ); then
+	  cat $ASHFILE >> $CARDPATH/commands_from_app.ash
     fi
   fi
 }
