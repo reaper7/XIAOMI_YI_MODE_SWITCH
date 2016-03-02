@@ -1,8 +1,7 @@
-# XIAOMI_YI_MODE_SWITCH
-XIAOMI YI MODE SWITCH BY SHUTTER BUTTON
+###XIAOMI YI MODE SWITCH BY SHUTTER BUTTON
 
-This project replaces and extends my previous work: XIAOMI YI WIFI SWITCH<br />
-https://github.com/reaper7/XIAOMI_YI_WIFI_SWITCH<br />
+######This project replaces and extends my previous work: XIAOMI YI WIFI SWITCH<br />
+######from: https://github.com/reaper7/XIAOMI_YI_WIFI_SWITCH<br />
 ___
 #####run mode_set.sh script from autoexec.ash:
 .....
