@@ -12,6 +12,10 @@ ___
 .....
 
 ___
+#####execute additional ash scripts:
+.....
+
+___
 #####built-in usefull functions to use in modes:
 - **telnet_start** *for start telnet server*
 - **ftp_start**    *for start ftp server*
