@@ -19,6 +19,7 @@ If You use this project to switching between AP and STA mode,<br />
 then please look and edit MISC/TMP.WIFI.CONF for your STA and AP settings<br />
 and MISC/wpa_supplicant.conf for Your STA settings<br />
 function for set selected mode:<br />
-**wifi_conf_file_prepare X** *where X replace with 0 for AP mode or X replace with 1 for STA mode*
+- **wifi_conf_file_prepare X** *where X replace with 0 for AP mode or X replace with 1 for STA mode*
+
 ___
 I will give more information later
