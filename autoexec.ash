@@ -8,7 +8,8 @@ sleep 3
 
 ###########################################
 ## prepare files and scripts for external commands
-lu_util exec 'if [ ! -f /tmp/fuse_d/commands_from_app.ash ]; then touch /tmp/fuse_d/commands_from_app.ash; else > /tmp/fuse_d/commands_from_app.ash; fi'
+lu_util exec 'if [ ! -f /tmp/fuse_d/commands_from_app.ash ]; then touch /tmp/fuse_d/commands_from_app.ash; fi'
+lu_util exec 'if [ -s /tmp/fuse_d/commands_from_app.ash ]; then > /tmp/fuse_d/commands_from_app.ash; fi'
 t pwm 1 enable
 sleep 1
 t pwm 1 disable
