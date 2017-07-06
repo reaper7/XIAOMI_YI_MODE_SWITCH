@@ -1,3 +1,7 @@
+this project isn't currently developed!
+
+
+
 ###XIAOMI YI MODE SWITCH BY SHUTTER BUTTON
 
 ######This project replaces and extends my previous work: XIAOMI YI WIFI SWITCH<br />
@@ -29,4 +33,3 @@ function for set selected mode:<br />
 - **wifi_conf_file_prepare X** *where X replace with 0 for AP mode or X replace with 1 for STA mode*
 
 ___
-I will give more information later
