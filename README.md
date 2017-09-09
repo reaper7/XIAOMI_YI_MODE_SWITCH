@@ -33,3 +33,5 @@ function for set selected mode:<br />
 - **wifi_conf_file_prepare X** *where X replace with 0 for AP mode or X replace with 1 for STA mode*
 
 ___
+
+[paypal.me/reaper7md](https://www.paypal.me/reaper7md)
